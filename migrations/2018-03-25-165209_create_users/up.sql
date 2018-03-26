@@ -1,0 +1,5 @@
+-- Your SQL goes here
+CREATE TABLE IF NOT EXISTS users (
+  id SERIAL PRIMARY KEY,
+  email VARCHAR(100) NOT NULL
+);
